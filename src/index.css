@@ -1,0 +1,24 @@
+body{
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.nav{
+  width: 1200px;
+  background-color: #F55A5A;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: .8rem;
+  color: white;
+  gap: 2rem;
+  font-size: 18px;
+  border-radius: .7rem;
+  margin-top: 1rem;
+}
+
+.nav > img{
+ width: 28px; 
+}
