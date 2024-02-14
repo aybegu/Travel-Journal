@@ -77,9 +77,9 @@ body{
    opacity: .3;
 }
 
-.main--title{
+/* .main--title{
 
-}
+} */
 
 .main--date{
   font-size: 14px;
@@ -90,3 +90,17 @@ body{
 
 } */
 
+.footer{
+  background-color: rgba(138, 43, 226, 0.2);
+  width: 100%;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.7rem;
+}
+
+.footer > p > a{
+  text-decoration: none;
+  color: red;
+}
