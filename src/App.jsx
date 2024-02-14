@@ -27,7 +27,7 @@ function App() {
         description = "Lalibela is a town in the Amhara region of northern Ethiopia. It's known for its distinctive rock-cut churches dating from the 12th and 13th centuries, which are pilgrimage sites for Coptic Christians. Carved out of rock, the subterranean monoliths include huge Bete Medhane Alem, and cross-shaped Bete Giyorgis. Many are joined by tunnels and trenches, and some have carved bas-reliefs and colored frescoes inside."
         imageUrl = "https://assets.vogue.com/photos/5ac2b5296493984c240b6822/master/w_2000,h_1425,c_limit/01-lalibela-ethiopia-is-the-next-machu-picchu.jpg"
       /> */}
-      {cards}
+      <div className="cards">{cards}</div>
       <Footer />
     </div>
   )

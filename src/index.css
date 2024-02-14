@@ -3,6 +3,8 @@ body{
   display: flex;
   justify-content:center;
   align-items: center;
+  background-color: #f0fbfd;
+  
 }
 
 .app{
@@ -12,7 +14,12 @@ body{
   /* background-color: rgba(0, 255, 255, 0.2); */
   align-items: center;
   justify-content: center;
-  
+}
+
+.cards{
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+	background-color: #fffbf4;
+  border-radius: .7rem;
 }
 
 .nav{
@@ -27,6 +34,7 @@ body{
   font-size: 18px;
   border-radius: .7rem;
   margin: 1rem 0;
+  box-shadow: 0px 3px 8px rgba(255, 82, 82, 0.4);
 }
 
 .nav > img{
@@ -34,20 +42,30 @@ body{
 }
 
 .main{
+  /* box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1); */
   display: flex;
   align-items: center;
   justify-content: center;
   /* justify-content: space-between; */
   gap: 4rem;
   padding: 3rem;
-  background-color: rgba(0, 255, 255, 0.2);
+  /* background-color: #fffbf4; */
   border-radius: .7rem;
+}
+
+.main:not(:last-child) {
+  box-shadow: 0px 45px 4px -45px #cacaca;
 }
 
 .main >img{
   width: 150px;
+  transition: transform .3s;
   border-radius: .5rem;
   /* margin-left: 3rem; */
+}
+
+.main > img:hover {
+  transform: scale(1.1); 
 }
 
 .main--info{
@@ -77,9 +95,14 @@ body{
    opacity: .3;
 }
 
-/* .main--title{
+.main--title{
+  margin-top: .7rem;
+  transition: transform .3s;
+}
 
-} */
+.main--title:hover{
+  transform: scale(1.05); 
+}
 
 .main--date{
   font-size: 14px;
