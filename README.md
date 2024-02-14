@@ -1,8 +1,13 @@
-# React + Vite
+# Travel Journal React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Objective
 
-Currently, two official plugins are available:
+Develop an app with reusable data-driven (presentational) React components to practice the setup of a React project. The app displays destinations I have travelled to. It comprises of:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+destination image
+country and location icon
+link to google maps
+title
+travel time span
+description of destination
+This project was created following a tutorial from Scrimba by Bob Ziroll.
